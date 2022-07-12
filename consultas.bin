@@ -1,0 +1,79 @@
+Fecha: 20/06/22     21:44
+
+
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'BuscaMax', pasándole una cadena de longitud mayor
+de 20 caracteres y múltiples repeticiones de subcadenas formadas
+por caracteres cuyo código ascii corresponde a valores cercanos
+al máximo. Todos los registros parten de valores iniciales
+distintos de cero
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'BuscaMax', pasándole una cadena formada por 300
+caracteres siendo los primeros 5 y los últimos 292 iguales.
+Se pasa un valor 10 en el parámetro "max"
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Checksum', pasándole una cadena con longitud mayor
+de 20 que no es múltiplo de cuatro y cuyos caracteres tienen
+valores cercanos al mínimo y al máximo. Todos los registros
+parten de valores iniciales distintos de cero
+_Error de asignación de memoria_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comprime', pasándole una cadena de 32 caracteres que
+admite la máxima compresión
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comprime', pasándole una cadena de longitud mayor
+de 30 caracteres y múltiples repeticiones de subcadenas formadas
+por caracteres cuyo código ascii corresponde a valores cercanos
+al mínimo o al máximo
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comprime', pasándole una cadena de longitud mayor
+de 20 caracteres y múltiples repeticiones de subcadenas formadas
+por caracteres cuyo código ascii corresponde a valores cercanos
+al máximo
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comprime', pasándole una cadena de longitud mayor
+de 20 caracteres idénticos
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comprime', pasándole una cadena de longitud mayor
+de 20 caracteres con subcadenas repetidas de 4 caracteres. Todos
+los registros parten de valores iniciales distintos de cero
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comprime', pasándole una cadena de longitud mayor
+de 256 caracteres que solo tiene 2 caracteres diferentes.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración COdeb: Usa subrutinas auxiliares del DATSI.
+Llama a 'Comprime', pasándole una cadena de longitud mayor
+de 30 caracteres y múltiples repeticiones de subcadenas formadas
+por caracteres cuyo código ascii corresponde a valores cercanos
+al mínimo o al máximo
+---------------------------------
+	Casos de prueba:       76
+	Pasados: 66
+	Con error: 10
+	Bucle infinito (asig. de memoria): 1
+---------------------------------
+Nº de pruebas que falla por subrutina: 
+Subr LongCad 0 de 9
+Subr BuscaCar 0 de 11
+Subr CoincidenCad 0 de 6
+Subr BuscaMax 2 de 9
+Subr Checksum 1 de 7
+Subr Comprime 6 de 10
+Subr Descomprime 0 de 10
+Subr Verifica 0 de 10
+Subr BMdeb 0 de 1
+Subr CHdeb 0 de 1
+Subr COdeb 1 de 1
+Subr VEdeb 0 de 1
+Fecha: 20/06/22     21:44
+
